@@ -1,134 +1,132 @@
-# 🚀 Ayushman — Developer Portfolio
+# Ayushman — Developer Portfolio
 
 <p align="center">
-  <img src="public/preview.png" alt="Ayushman Developer Portfolio Preview" width="100%">
+  <img src="./public/preview.png" alt="Ayushman Developer Portfolio Preview" width="100%">
 </p>
 
-<h3 align="center">
-  Modern, responsive and interactive developer portfolio built to showcase my projects, technical skills, experience and resume.
-</h3>
-
 <p align="center">
-  <a href="#-live-demo">Live Demo</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-project-structure">Project Structure</a>
+  A modern, responsive and interactive developer portfolio designed to showcase software development projects, technical skills, AI/ML work, experience and professional profile.
 </p>
 
----
-
-## 🌐 Live Demo
-
-🔗 **Portfolio:** [https://your-portfolio-url.com](https://your-portfolio-url.com)
-
-> Replace the URL above with your deployed portfolio URL.
-
----
-
-## 📸 Portfolio Preview
-
 <p align="center">
-  <img src="public/preview.png" alt="Portfolio Website Preview" width="100%">
+  <a href="#overview">Overview</a> •
+  <a href="#features">Features</a> •
+  <a href="#technology-stack">Technology Stack</a> •
+  <a href="#project-architecture">Project Architecture</a> •
+  <a href="#installation-and-setup">Installation</a> •
+  <a href="#deployment">Deployment</a> •
+  <a href="#contact">Contact</a>
 </p>
 
 ---
 
-## 📌 About The Project
+## Overview
 
-This is my personal developer portfolio website designed to provide a centralized platform for showcasing my:
+This repository contains the source code for my personal developer portfolio.
 
-- 👨‍💻 Software development skills
-- 🤖 AI/ML projects
-- 🚀 Full-stack applications
-- 🧠 Technical experience
-- 📄 Resume
-- 📬 Contact information
-- 🏆 Hackathon and project achievements
+The portfolio is designed as a centralized platform for presenting my technical background, software development projects, artificial intelligence and machine learning work, technical skills, achievements, resume and professional contact information.
 
-The website focuses on a **minimal, modern and professional UI** with a dark visual theme, high-contrast typography, smooth interactions and responsive layouts.
+The interface follows a minimal and modern design approach with a dark visual system, high-contrast typography, responsive layouts and interactive UI components.
 
-The goal is not just to present information, but to create a digital representation of my technical identity and development journey.
+The primary objective of the project is to provide a professional digital representation of my technical capabilities and development experience while maintaining a fast, accessible and responsive user experience.
 
 ---
 
-# ✨ Features
+## Portfolio Preview
 
-## 🎨 Modern UI/UX
+The following image provides an overview of the current portfolio interface.
 
-- Dark-themed developer portfolio
-- Minimal and professional visual design
-- Responsive layout across desktop, tablet and mobile
-- Modern typography and spacing system
-- Interactive navigation
-- Smooth hover and transition effects
+<p align="center">
+  <img src="./public/preview.png" alt="Portfolio Preview" width="100%">
+</p>
 
 ---
 
-## 🏠 Hero Section
+## Live Demo
 
-The landing section immediately communicates:
+**Portfolio:**  
+https://your-portfolio-url.com
 
-- Name
-- Professional role
+Replace the URL above with the URL of the deployed portfolio.
+
+---
+
+## Core Features
+
+### Responsive User Interface
+
+- Fully responsive layout for desktop, tablet and mobile devices
+- Adaptive navigation and content sections
+- Consistent spacing and typography system
+- Responsive project and skill layouts
+- Mobile-friendly interaction patterns
+
+### Hero Section
+
+The landing section provides an immediate overview of the developer profile and includes:
+
+- Developer name
+- Professional designation
 - Personal branding
 - Resume access
-- Contact CTA
+- Contact call-to-action
+- Primary visual presentation
 
-The hero section uses large typography and a prominent profile visual to create a strong first impression.
+The hero section is designed to establish the portfolio's visual identity while providing direct access to important resources.
 
----
+### About Section
 
-## 👨‍💻 About Section
-
-Contains information about my:
+The About section presents:
 
 - Technical background
 - Development interests
-- Career goals
-- Areas of expertise
+- Career objectives
+- Areas of specialization
+- Professional overview
 
----
+### Technical Skills
 
-## 🛠️ Skills & Technologies
-
-Technologies and tools are organized into relevant categories such as:
+Technical capabilities are organized into structured categories, including:
 
 - Programming Languages
 - Frontend Development
 - Backend Development
-- AI / Machine Learning
+- Artificial Intelligence
+- Machine Learning
+- Data Science
 - Databases
-- Developer Tools
+- Development Tools
 
----
+### Project Showcase
 
-## 🚀 Projects
+The Projects section provides detailed information about selected technical projects.
 
-A dedicated project showcase containing:
+Each project can include:
 
-- Project title
-- Project description
-- Technologies used
+- Project name
+- Technical description
+- Technology stack
+- Key functionality
 - GitHub repository
-- Live deployment/demo
+- Live deployment
+- Project-specific links
 
-Projects focus on practical applications across:
+The portfolio focuses on practical projects involving:
 
 - Artificial Intelligence
 - Machine Learning
-- Web Development
-- Computer Vision
 - Data Science
+- Computer Vision
+- Web Development
 - Full-Stack Development
+- Automation
+- Intelligent applications
 
----
+### Resume Integration
 
-## 📄 Resume
+The portfolio provides direct access to the developer's resume.
 
-The portfolio provides direct access to my professional resume.
-
-A Python-based utility is also included for generating the resume PDF.
+A Python utility is also included for programmatically generating the resume PDF:
 
 ```text
 generate_resume_pdf.py
