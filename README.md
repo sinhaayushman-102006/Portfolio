@@ -45,7 +45,7 @@ The following image provides an overview of the current portfolio interface.
 ## Live Demo
 
 **Portfolio:**  
-https://your-portfolio-url.com
+ayushmanportfolio10.netlify.app
 
 Replace the URL above with the URL of the deployed portfolio.
 
