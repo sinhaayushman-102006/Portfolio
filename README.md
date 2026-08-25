@@ -1,8 +1,7 @@
-
 # 🚀 Ayushman — Developer Portfolio
 
 <p align="center">
-  <img src="public/preview.png" alt="Ayushman Portfolio Preview" width="100%">
+  <img src="public/preview.png" alt="Ayushman Developer Portfolio Preview" width="100%">
 </p>
 
 <h3 align="center">
@@ -27,6 +26,14 @@
 
 ---
 
+## 📸 Portfolio Preview
+
+<p align="center">
+  <img src="public/preview.png" alt="Portfolio Website Preview" width="100%">
+</p>
+
+---
+
 ## 📌 About The Project
 
 This is my personal developer portfolio website designed to provide a centralized platform for showcasing my:
@@ -47,7 +54,7 @@ The goal is not just to present information, but to create a digital representat
 
 # ✨ Features
 
-### 🎨 Modern UI/UX
+## 🎨 Modern UI/UX
 
 - Dark-themed developer portfolio
 - Minimal and professional visual design
@@ -56,7 +63,9 @@ The goal is not just to present information, but to create a digital representat
 - Interactive navigation
 - Smooth hover and transition effects
 
-### 🏠 Hero Section
+---
+
+## 🏠 Hero Section
 
 The landing section immediately communicates:
 
@@ -68,7 +77,9 @@ The landing section immediately communicates:
 
 The hero section uses large typography and a prominent profile visual to create a strong first impression.
 
-### 👨‍💻 About Section
+---
+
+## 👨‍💻 About Section
 
 Contains information about my:
 
@@ -77,7 +88,9 @@ Contains information about my:
 - Career goals
 - Areas of expertise
 
-### 🛠️ Skills & Technologies
+---
+
+## 🛠️ Skills & Technologies
 
 Technologies and tools are organized into relevant categories such as:
 
@@ -88,7 +101,9 @@ Technologies and tools are organized into relevant categories such as:
 - Databases
 - Developer Tools
 
-### 🚀 Projects
+---
+
+## 🚀 Projects
 
 A dedicated project showcase containing:
 
@@ -107,7 +122,9 @@ Projects focus on practical applications across:
 - Data Science
 - Full-Stack Development
 
-### 📄 Resume
+---
+
+## 📄 Resume
 
 The portfolio provides direct access to my professional resume.
 
@@ -115,4 +132,3 @@ A Python-based utility is also included for generating the resume PDF.
 
 ```text
 generate_resume_pdf.py
-```
