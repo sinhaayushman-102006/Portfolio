@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayushman Sinha - Resume</title>
+  <style>
+    @page {
+      size: letter portrait;
+      margin: 12mm 15mm 12mm 15mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Times New Roman', Times, 'Liberation Serif', serif;
+      color: #111111;
+      line-height: 1.35;
+      font-size: 10pt;
+      background: #ffffff;
+      -webkit-print-color-adjust: exact;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    .name {
+      font-size: 19pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+    }
+    .role {
+      font-size: 12pt;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .contact-line {
+      font-size: 9.5pt;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      color: #111;
+    }
+    .contact-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      text-decoration: none;
+      color: #111;
+    }
+    .contact-item svg {
+      width: 11px;
+      height: 11px;
+      fill: currentColor;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .section-title {
+      font-size: 11.5pt;
+      font-weight: 700;
+      text-transform: none;
+      margin-top: 10px;
+      margin-bottom: 3px;
+      border-bottom: 1px solid #111;
+      padding-bottom: 1px;
+    }
+    .section-content {
+      margin-top: 4px;
+    }
+    .summary-text {
+      text-align: justify;
+      font-size: 9.5pt;
+      line-height: 1.35;
+    }
+    .skills-block {
+      font-size: 9.5pt;
+      line-height: 1.4;
+    }
+    .skills-block p {
+      margin-bottom: 2px;
+    }
+    .bold-title {
+      font-weight: 700;
+    }
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9.5pt;
+      margin-top: 6px;
+    }
+    .entry-subhead {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9pt;
+      font-style: italic;
+      color: #333;
+      margin-bottom: 3px;
+    }
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9.5pt;
+      margin-top: 6px;
+      margin-bottom: 2px;
+    }
+    .bullet-list {
+      list-style-type: none;
+      padding-left: 14px;
+      font-size: 9.3pt;
+      line-height: 1.35;
+    }
+    .bullet-list li {
+      position: relative;
+      margin-bottom: 2.5px;
+      text-align: justify;
+    }
+    .bullet-list li::before {
+      content: "–";
+      position: absolute;
+      left: -12px;
+      font-weight: 600;
+    }
+    .cert-list {
+      list-style-type: disc;
+      padding-left: 18px;
+      font-size: 9.3pt;
+      line-height: 1.35;
+      margin-top: 4px;
+    }
+    .cert-list li {
+      margin-bottom: 3px;
+      text-align: justify;
+    }
+    .education-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9.5pt;
+      margin-top: 4px;
+      font-weight: 700;
+    }
+    .education-subhead {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 9pt;
+      color: #222;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="name">Ayushman Sinha</div>
+    <div class="role">Sophomore</div>
+    <div class="contact-line">
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        +91-9123306209
+      </span>
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        sinhaayushman09@gmail.com
+      </span>
+      <span class="contact-item">
+        <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.46 1.46 0 1 0 0-2.92 1.46 1.46 0 0 0 0 2.92M7.85 18.5V10.13H5.08V18.5h2.77z"/></svg>
+        linkedin.com/in/ayushmansinha10
+      </span>
+    </div>
+  </div>
+
+  <div class="section-title">Summary</div>
+  <div class="section-content">
+    <p class="summary-text">
+      Sophomore Data Science enthusiast with a strong foundation in Python, statistics, and data analysis. Hands-on experience with machine learning basics, data preprocessing, visualization, and model building. Actively seeking opportunities to apply AI/ML techniques to real-world datasets and industry problems.
+    </p>
+  </div>
+
+  <div class="section-title">Skills</div>
+  <div class="section-content skills-block">
+    <p><span class="bold-title">Programming & Querying:</span> SQL, Python, HTML5, CSS, C Programming.</p>
+    <p><span class="bold-title">Developer & Data Tools:</span> Advanced MS Excel, Power BI, Tableau, VS Code, Firebase Studio, n8n, Git, GitHub.</p>
+    <p><span class="bold-title">AI & Productivity Tools:</span> Cursor, Blackbox, Lovable, Claude, Hugging Face, Ollama, LM Studio.</p>
+  </div>
+
+  <div class="section-title">Experience</div>
+  <div class="section-content">
+    <div class="entry-header">
+      <span class="bold-title">Data Science Intern</span>
+      <span class="bold-title">February 2026 – March 2026</span>
+    </div>
+    <div class="entry-subhead">
+      <span>Data Science (Remote)</span>
+      <span>Tools Used: Python, Jupyter Notebook, Git & GitHub</span>
+    </div>
+    <ul class="bullet-list">
+      <li>Analyzed and cleaned large-scale unemployment datasets using Python (Pandas, NumPy), uncovering long-term and seasonal trends across regions and time periods to support socio-economic analysis.</li>
+      <li>Conducted exploratory data analysis and visualized Covid-19's impact on unemployment rates using Matplotlib and Seaborn, translating complex trends into clear, policy-relevant insights.</li>
+      <li>Built and evaluated regression models to predict car prices based on features such as brand, mileage, horsepower, and engine capacity, improving price estimation accuracy through feature engineering and model tuning.</li>
+      <li>Collaborated with cross-functional stakeholders to interpret analytical results and deliver actionable insights, enabling data-driven decision-making for economic analysis and business strategy.</li>
+    </ul>
+  </div>
+
+  <div class="section-title">Projects</div>
+  <div class="section-content">
+    <div class="project-header">
+      <span><span class="bold-title">Agentic Honey-Pot for Scam Detection & Intelligence Extraction</span> | <em>Python</em></span>
+      <span class="bold-title">November 2025 – December 2025</span>
+    </div>
+    <ul class="bullet-list">
+      <li>Designed and implemented an agentic honey-pot system for scam detection using LLMs and NLP techniques to identify fraudulent intent across banking fraud, UPI scams, phishing, and fake offers.</li>
+      <li>Built an autonomous AI agent powered by prompt engineering and state machine–based conversation control, enabling human-like personas, multi-turn dialogue handling, and adaptive response generation.</li>
+      <li>Extracted, normalized, and returned structured scam intelligence in JSON format, including fraud patterns, scam strategies, and behavioral signals for downstream analysis.</li>
+    </ul>
+
+    <div class="project-header" style="margin-top: 8px;">
+      <span><span class="bold-title">AI Stock Trend Analyzer</span> | <em>Python, Machine Learning</em></span>
+      <span class="bold-title">January 2026 – February 2026</span>
+    </div>
+    <ul class="bullet-list">
+      <li>Analyzed historical stock price data (open, high, low, close, volume) across multiple companies to identify short-term and long-term market trends.</li>
+      <li>Applied data preprocessing techniques including missing-value handling, normalization, and rolling window feature engineering (moving averages, volatility indicators) to improve trend detection.</li>
+      <li>Built and evaluated machine learning models to classify stock price movements (uptrend/downtrend), achieving improved prediction reliability through feature selection and model tuning.</li>
+      <li>Visualized price trends, technical indicators, and model outputs using Matplotlib to support data-driven trading insights and decision-making.</li>
+    </ul>
+  </div>
+
+  <div class="section-title">Certifications</div>
+  <div class="section-content">
+    <ul class="cert-list">
+      <li><span class="bold-title">Gemini Certified University Student – Google for Education (2025):</span> Completed hands-on training on using Gemini AI tools for academic productivity, research assistance, and responsible AI-powered problem-solving.</li>
+      <li><span class="bold-title">Google Analytics Certification – 2025:</span> Google Digital Academy (Skillshop).</li>
+      <li><span class="bold-title">SQL Skill Up - GeeksforGeeks (2025) –</span> Completed hands-on training in SQL covering database design, complex queries, joins, subqueries, indexing, and real-world data retrieval for analytical use cases.</li>
+    </ul>
+  </div>
+
+  <div class="section-title">Education</div>
+  <div class="section-content">
+    <div class="education-header">
+      <span>B.Tech. Information Technology</span>
+      <span>Undergraduate: 2028</span>
+    </div>
+    <div class="education-subhead">
+      <span>MCKV Institute of Engineering, Howrah (West Bengal)</span>
+      <span style="font-weight: 600; color: #111;">CGPA: 7.76 / 10</span>
+    </div>
+  </div>
+
+</body>
+</html>
